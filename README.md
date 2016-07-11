@@ -5,3 +5,4 @@ Practice data structure with their basic implementations:
   3) Traverse (list) all elements*
   * => Important for iterate through the data structure for sorting, manipulating data
   
+Part 1 is for List!
