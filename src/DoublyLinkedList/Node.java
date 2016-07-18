@@ -4,14 +4,14 @@ class Node {            // Doubly linked list node
   private Node prev;       // Pointer to previous node
 
   // Constructors
-  Node(Object a, Node m_next, Node m_prev) 
+  Node(Object a, Node m_prev, Node m_next) 
     { 
       e = a;  
       prev = m_prev; 
       next = m_next; 
     }
     
-  Node(Link inp, Link inn) 
+  Node(Node m_prev, Node m_next) 
     { 
       prev = m_prev; 
       next = m_next; 
