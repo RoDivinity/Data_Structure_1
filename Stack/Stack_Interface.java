@@ -13,7 +13,7 @@ public interface Stack_Interface
       public Object pop();
       
       //Return top element of the stack
-      public Object peak();
+      public Object peek();
       
       //Return number of elements in the list
       public int length();
